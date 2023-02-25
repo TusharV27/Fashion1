@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*  */
+
+/* sm */
+@media (min-width: 100px) and (max-width : 544px) {
+    #sss{
+        font-size: 10px;
+        margin-top: 35%
+    }
+    #hrhome{
+        width: 100px;
+        border: 1px solid #ccff00;
+        margin-top: -5px;
+    }
+    #phome{
+        font-size: 10px;
+        margin-top: -10px;
+    }
+    #homebtn{
+        font-size: 8px;
+        background-color: #ccff00;
+        margin-left: 10px;
+        /* size: 50px; */
+    }
+}
+/* md */
+@media (min-width: 544px) and (max-width: 768px) {
+    #sss{
+        font-size: 15px;
+        margin-top: 35%
+    }
+    #hrhome{
+        width: 150px;
+        border: 1px solid #ccff00;
+        margin-top: -5px;
+    }
+    #phome{
+        font-size: 11px;
+        margin-top: -10px;
+    }
+    #homebtn{
+        font-size: 9px;
+        background-color: #ccff00;
+        margin-left: 10px;
+        /* size: 50px; */
+    }
+}
+/* lg */
+@media (min-width: 768px) and (max-width: 992px) {
+    #sss{
+        font-size: 16px;
+        margin-top: 35%
+    }
+    #hrhome{
+        width: 200px;
+        border: 1px solid #ccff00;
+        margin-top: -5px;
+    }
+    #phome{
+        font-size: 12px;
+        margin-top: -9px;
+    }
+    #homebtn{
+        font-size: 10px;
+        background-color: #ccff00;
+        margin-left: 10px;
+        /* size: 50px; */
+    }
+}
+/* xl */
+@media (min-width: 992px) and (max-width: 1200px) {
+    #sss{
+        font-size: 22px;
+        margin-top: 35%
+    }
+    #hrhome{
+        width: 250px;
+        border: 1px solid #ccff00;
+        margin-top: -5px;
+    }
+    #phome{
+        font-size: 18px;
+        margin-top: -9px;
+    }
+    #homebtn{
+        font-size: 16px;
+        background-color: #ccff00;
+        margin-left: 10px;
+        /* size: 50px; */
+    }
+}
+@media only screen and (min-width: 1201px)  {
+    #sss{
+        font-size: 30px;
+        margin-top: 35%
+    }
+    #hrhome{
+        width: 300px;
+        border: 1px solid #ccff00;
+        margin-top: -5px;
+    }
+    #phome{
+        font-size: 22px;
+        margin-top: -7px;
+    }
+    #homebtn{
+        font-size: 20px;
+        background-color: #ccff00;
+        margin-left: 10px;
+        /* size: 50px; */
+    }
+}
+/*  */
+#logo{
+    /* font-family: 'Oleo Script', cursive; */
+    /* font-family: AbrilFatface; */
+    /* font-family: Aletriat; */
+    /* font-family: TABELARegular; */
+    font-weight: 700;
+    /* font-family: 'Philosopher', sans-serif; */
+    font-size: 40px;
+}
+#natx{
+    /* font-family: Aletriat; */
+    color: black;
+    font-weight: 500;
+}
+#natx:hover{
+    color: #686868;
+}
+/* navbar link */
+.navlink{
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.navlink::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #000000;
+    border-radius: 4px;
+    scale: 0 1;
+    transform-origin: right;
+    transition: scale 0.25s;
+}
+
+.navlink:hover::before{
+    scale: 1;
+    transform-origin: left;
+}
+/* navbar link */
+#mq1{
+    font-size: 50px;
+    font-weight: 900;
+}
+#cardbtn{
+    font-size: 15px;
+    background-color: #ccff00;
+}
